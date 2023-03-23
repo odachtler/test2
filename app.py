@@ -49,7 +49,7 @@ def add():
 @app.route("/about", methods=["GET", "POST"])
 def about():
     return render_template(
-        "index.html", pageTitle="About", friends=friend_list
+        "about.html", pageTitle="About", friends=friend_list
     )
 
 
