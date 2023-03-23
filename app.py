@@ -47,7 +47,7 @@ def add():
 
 
 @app.route("/about", methods=["GET", "POST"])
-def index():
+def about():
     return render_template(
         "index.html", pageTitle="About", friends=friend_list
     )
