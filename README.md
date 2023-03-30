@@ -32,7 +32,7 @@ This is a project to track the books in a personal library. We created a webform
 
 ### TO DO 
 
-- [ ] Catch all selected activities in /add and put them into the list 
+- [ ] ~~Catch all selected activities in /add and put them into the list~~ 
 - [ ] About page
 - [ ] Styling using Bootstrap 5 frameowkr 
 - [ ] Custom error messages
