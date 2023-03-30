@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, redirect, url_for
+from flask import Flask, request, render_template, redirect, url_for, flash
 
 app = Flask(__name__)
 
@@ -58,6 +58,7 @@ def add():
         print(add_book_dict)
         books_list.append(add_book_dict)
         print(books_list)
+        flash('Record successfully added.')
         return redirect(url_for("index"))
     else:
         return redirect(url_for("index"))
@@ -73,3 +74,6 @@ def about():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+app.config.update(SECRET_KEY="odfkbkfs")
