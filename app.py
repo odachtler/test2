@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect, url_for, flash
 
 app = Flask(__name__)
-app.config(SECRET_KEY="odfkbkfs")
+app.config.update(SECRET_KEY="odfkbkfs")
 
 books_list = [
     {"title": "The Song of Achilles", "author": "Madeline Miller ", "pages": "416", "classification": "fiction", "details": "read, recommend", "acquisition": "loaned"}
