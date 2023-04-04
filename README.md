@@ -6,6 +6,8 @@ Basic Python Flask web application where users can track the books they've read.
 This is a project to track the books in a personal library. We created a webform that track the book information and feelings about the book. After submitting a book to the library, it shows up at the bottom with all of the information. The project helped us learn about dynamic web applications, user experience, and user interfaces.
 
 ---
+![Library application photo]("Library Application Photo")
+
 
 ## Instructions to run application
 
