@@ -15,12 +15,11 @@
   </head>
 
   <body>
-
+    <div class="container"></div>
     <nav>  <a href="/">Home</a>  |  <a href="/about">About</a> </nav>
     {% for message in get_flashed_messages() %}
 {{ message }}
 {% endfor %}
-    <div class="container">{% block body %}xx {% endblock %}</div>
-
+{% block body %}xx {% endblock %}</div>
   </body>
 </html>
