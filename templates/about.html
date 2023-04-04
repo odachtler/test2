@@ -12,8 +12,12 @@
 <body>
 Olivia Dachtler and Olivia Kremer
 <main>
-    <img src="/team.jpg" class="img-fluid" alt="Picture of the team" width="200" height="300" >
-    
+    <img
+        class="img-fluid"
+        src="{{ url_for('static', filename='templates/team.png')}}"
+        width="200" height="300"
+        alt="Picture of the team"
+    />
 </main>
 
 </body>
